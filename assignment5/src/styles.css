@@ -1,0 +1,84 @@
+.a
+{
+    background-image: image();
+}
+.one
+{
+    text-decoration-line:none;
+    color:white;
+    padding:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.two
+{
+    display:inline;
+    padding:50px;
+}
+.two :hover
+{
+    color:aqua;
+}
+.three
+{
+    display: inline;
+}
+.three :hover
+{
+    color: aqua;;
+}
+a span{
+    color:cyan;
+}
+.four
+{
+    color: aqua;
+    text-align: center;
+    padding-top:70px;
+    font-family:cursive;
+}
+.five
+{
+    color:white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family:cursive;
+}
+.six
+{
+    color:black;
+    background-color:cyan;
+    text-decoration-line:none;
+    text-align: center;
+    font-size:30px;
+    margin-left: 550px;
+    border-radius:10%;
+    padding:10px;
+}
+.seven
+{
+ color:white;
+ text-align: center;
+ text-decoration-line:none;
+ padding-left: 50px;
+ font-size:30px;
+}
+.eight :hover
+{
+    background-color:white;
+}
+
+.nine :hover
+{
+    color: aqua;
+}
+.eleven
+{
+    display: grid; 
+    grid-template-columns: 0.5fr 0.5fr 0.5fr; 
+    grid-gap: 20px; 
+    font-size:20px;
+}
+.twelve
+{
+    margin: 10px; 
+}

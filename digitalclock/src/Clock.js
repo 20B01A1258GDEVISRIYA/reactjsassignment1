@@ -16,8 +16,11 @@ componentWillUnmount(){
 render(){
         return( 
             <div style={{
-                backgroundImage:"linear-gradient(#427ceb, #1dad6f)",
-                color:"black",
+                backgroundImage:"linear-gradient(to left,violet,indigo,blue,green,yellow,orange,red)",
+                WebkitBackgroundClip:"text",
+                
+                backgroundClip:"text",
+                color:'transparent',
                 display:"flex",
                 alignItems:"center",
                 justifyContent:"center",

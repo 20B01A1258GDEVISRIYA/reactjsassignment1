@@ -15,8 +15,17 @@ componentWillUnmount(){
     }
 render(){
         return( 
-            <div className="clock">
-                <div className="timer">{this.state.date.toLocaleTimeString()}</div>
+            <div style={{
+                backgroundImage:"linear-gradient(#427ceb, #1dad6f)",
+                color:"black",
+                display:"flex",
+                alignItems:"center",
+                justifyContent:"center",
+                height:"100vh",
+                fontFamily:"cursive",
+                fontSize:'100px'
+              }}>
+                <div>{this.state.date.toLocaleTimeString()}</div>
             </div>
         )
     }
